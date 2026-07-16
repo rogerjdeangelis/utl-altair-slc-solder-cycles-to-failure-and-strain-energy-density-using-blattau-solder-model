@@ -1,0 +1,5 @@
+
+COMPONENT_SIZE_X  COMPONENT_SIZE_Y  SOLDER_HEIGHT  PAD_DIAMETER  DNP  SOLDER_MATERIAL  COMPONENT_CTE  BOARD_CTE  CTE_MISMATCH  MIN_TEMPERATURE  MAX_TEMPERATURE  DELTA_TEMPERATURE  WEIBULL_BETA
+----------------  ----------------  -------------  ------------  ---  ---------------  -------------  ---------  ------------  ---------------  ---------------  -----------------  ------------
+              20                20            0.6           0.8  7.5  SAC305                     2.6         16          13.4              -20               40                 60             3
+

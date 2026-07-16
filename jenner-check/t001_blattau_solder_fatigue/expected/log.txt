@@ -1,0 +1,23 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260715T062217Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: Option LS changed to 255.
+NOTE: DATA solder_input
+
+
+NOTE: Wrote solder_input (1 rows, 17 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option LS changed to 255.
+NOTE: DATA solder
+
+
+NOTE: Read 1 rows from solder_input.
+NOTE: Wrote solder (1 rows, 32 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=solder
+
+NOTE: PROC PRINT completed: 1 observations printed, 4 variables

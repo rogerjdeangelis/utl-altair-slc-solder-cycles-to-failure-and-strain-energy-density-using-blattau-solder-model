@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_df_inputs_cards4",
+  "source_file": "utl-altair-slc-solder-cycles-to-failure-and-strain-energy-density-using-blattau-solder-model.sas",
+  "source_blob_sha": "4d6f42926c43792eceee027bc4766eb4c840cc67",
+  "source_commit": "0068dfaea576445e0599f3ae5b7a33b58b43af25",
+  "notes": "Section '2 slc simple python' input staging (lines ~320-354): builds df_inputs, the single-row parameter table (component size, solder height, pad geometry, CTE mismatch, thermal-cycle bounds, Weibull beta) that feeds the author's downstream Python fatigue-life sweep. Only edit: libname workx (d:wpswrkx) replaced with the default WORK library; added a closing PROC PRINT. INFORMAT/INPUT list and the CARDS4 data row (20 20 0.6 0.8 7.5 SAC305 2.6 16 13.4 -20 40 60 3) are unchanged from the original. Captured values match the repo's own documented observation block exactly (SOLDER_MATERIAL=SAC305, COMPONENT_SIZE_X=20, etc.)."
+}

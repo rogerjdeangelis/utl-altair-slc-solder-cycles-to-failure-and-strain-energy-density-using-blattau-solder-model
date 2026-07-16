@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_blattau_solder_fatigue",
+  "source_file": "utl-altair-slc-solder-cycles-to-failure-and-strain-energy-density-using-blattau-solder-model.sas",
+  "source_blob_sha": "4d6f42926c43792eceee027bc4766eb4c840cc67",
+  "source_commit": "0068dfaea576445e0599f3ae5b7a33b58b43af25",
+  "notes": "Section '1 slc datastep' (lines ~108-250): the Blattau solder-joint fatigue model, two chained DATA steps (solder_input -> solder) computing strain-energy density (dW) and cycles-to-failure (Nf) from component/board moduli, CTE mismatch, and joint geometry. Only edit: libname workx (d:wpswrkx) replaced with the default WORK library so it runs standalone; added a closing PROC PRINT (the original piped downstream into Python instead of printing). All labels, variable names, and the calculation itself are unchanged. Captured dW=9.5539745E-6, Nf=19193.899 match the values documented in the repo's own comment block exactly."
+}
