@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-16T13:31:33.494030+00:00",
+  "_captured_run_id": "r_a893a1b9533a48d6b65f9bf0bc1bf5c5",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote solder_input (1 rows, 17 columns).",
+    "NOTE: Wrote solder (1 rows, 32 columns).",
+    "NOTE: PROC PRINT completed: 1 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,5 @@
+
+BLATTAU SOLDER FATIGUE MODEL                      {model }  Corner (LD=1.5mm)                                 {Joint }  Plastic strain energy density  [en.wikipedia](https://en.wikipedia.org/wiki/Solder_fatigue) {dW    }  Nf (cycles to failure)                            {Nf    }
+----------------------------------------------------------  ----------------------------------------------------------  ----------------------------------------------------------------------------------------------------  ----------------------------------------------------------
+BLATTAU SOLDER FATIGUE                                      Corner (LD=%.1fmm)                                                                                                                                   0.000009554                                            19193.8987389256
+
